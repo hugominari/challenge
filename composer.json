@@ -1,0 +1,21 @@
+{
+    "name": "Hugo Minari Diniz",
+    "description": "My challenge.",
+    "keywords": ["Linio", "Challenge Two"],
+    "license": "MIT",
+    "type": "project",
+    "require": {
+        "php": "^7.1.3"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^7.0"
+    },
+    "autoload": {
+        "psr-0": {
+            "Controllers": "app/"
+        },
+        "files": [
+            "app/Functions.php"
+        ]
+    }
+}
